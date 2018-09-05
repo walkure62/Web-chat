@@ -1,0 +1,31 @@
+@font-face{
+
+    font-family: 'KarlaBold';
+    src: url('./fonts/Karla-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face{
+
+    font-family: 'KarlaBoldItalic';    
+    src: url('./fonts/Karla-BoldItalic.ttf') format('truetype');   
+    font-weight: normal;  
+    font-style: normal;
+    }
+
+@font-face{
+
+    font-family: 'KarlaItalic';        
+    src: url('./fonts/Karla-Italic.ttf') format('truetype');       
+    font-weight: normal;       
+    font-style: normal;
+    }
+
+@font-face{
+
+    font-family: 'KarlaRegular';              
+    src: url('./fonts/Karla-Regular.ttf') format('truetype');          
+    font-weight: normal;          
+    font-style: normal;
+    }
