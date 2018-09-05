@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #ccc;
+}
+
+input {
+    cursor: pointer;
+}
+.chat__box {
+    display: block;
+    position: relative;
+    width: 750px;
+    height: 1334px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.chat__box_top {
+    display: block;
+    background-color: #fff;
+    width: 750px;
+    height: 755px;
+}
+
+.triangle__left {
+    display: block;
+    width: 0px;
+    border: 375px solid transparent;	
+    border-bottom: 380px solid #0090e5; 
+    border-left: 377px solid #0090e5;
+    float: left;
+}
+
+.triangle__right {
+    display: block;
+    width: 0px;
+    border: 374px solid transparent;	
+    border-top: 380px solid #00a0ff; 
+    border-right: 377px solid #00a0ff;
+}
+
+.chat__box-icon {
+    display: block;
+    position: absolute;
+    top: 290px;
+    left: 275px;
+    width: 205px;
+    height: 253px;
+}
+
+.chat__box-icon_1 {
+    display: block;
+    width: 205px;
+    height: 205px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #ffbdb8;
+}
+
+.line_1 {
+display: block;
+position: absolute;
+top: 72px;
+left: 40px;
+width: 120px;
+height: 16px;
+background-color: black;
+}
+
+.line_2 {
+    display: block;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    width: 60px;
+    height: 16px; 
+    background-color: black;
+}
+
+.chat__box-icon_2 {
+    width: 0;
+    border: 25px solid transparent;	
+    border-top: 25px solid #ad807d; 
+    border-right: 25px solid #ad807d;
+}
+
+.chat__box_title {
+    display: inline-block;
+    font-size: 200px;
+    font-family: 'KarlaBold';
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    left: -17px;
+    top: 120px;
+      
+}
+  
+.chat__box_bottom {
+    display: block;
+    width: 750px;
+    height: 580px;
+    background-color: black;
+}
+
+.chat__box_login {
+    display: block;
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    width: 650px;
+    height: 540px;
+}
+
+.chat__box_login_1 {
+    display: block;
+    width: 650px;
+    height: 418px;
+    background-color: #fff;
+}
+
+.chat__box_login_2 {
+    display: block;
+    position: absolute;
+    width: 650px;
+    height: 120px;
+    background-color: #00a0ff;
+}
+
+.chat__box_login_1 input {
+    display: block;
+    width: 495px;
+    height: 85px;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'KarlaRegular';
+    font-size: 35px;
+    outline: none;
+}
+
+.chat__box_login_1 input:hover {
+    border-bottom: #ffbdb8 2px solid;
+}
+
+.chat__box_login_1 input:focus {
+    border-bottom: #ffbdb8 2px solid;
+}
+
+.chat__username, .chat__password {
+    display: block;
+    position: relative;
+    margin-left: 80px;
+    width: 495px;
+    height: 100px;
+    padding-top: 65px;
+}
+.chat__username h3, .chat__password h3 {
+    font-size: 20px;
+    font-family: 'KarlaRegular';
+    color: rgb(173, 128, 125);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;  
+}
+
+.chat__box_login_2 input {
+    display: block;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    left: 430px;
+    background: rgba(255, 255, 255, 0);
+    border: 0px;
+    font-family: 'KarlaBold';
+    color: #fff;
+    font-size: 26px;
+    outline: none;
+}
+
+.chat__box_login_2 input:hover {
+    color: #ffbdb8
+}
+
+.triangle__bottom {
+    display: block;
+    position: absolute;
+    width: 0;
+    border: 20px solid transparent;
+    border-left: 20px solid #fff;
+    left: 80px;
+    top: 50px;
+}
+  
+.footer {
+    display: block;
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    bottom: 50px;
+    left: 215px;
+    font-family: 'KarlaRegular';
+    font-size: 22px;
+    color: #fff;
+}
+
+.footer a {
+    display: inline-block;
+    height: 50px;
+    font-family: 'KarlaRegular';
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    line-height: 50px;
+}
+
+.Not_registered__Create_Account {
+    font-size: 22px;
+    font-family: "Karla";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 762.902px;
+    top: 1243.324px;
+    z-index: 2774;
+  }
+  
