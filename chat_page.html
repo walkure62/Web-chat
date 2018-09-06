@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web-chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="chat_page.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href='fonts.css' rel='stylesheet' type='text/css'>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="chat__box">
+        <div class="chat__box_header">
+            <a href="index.html"><div class="triangle"></div></a>
+            <p>Тестовое задание</p>
+            <div class="radio_1"></div>
+            <div class="radio_2"></div>
+        </div>
+        <div class="chat__box_top">
+            <div class="triangle__left"></div>
+            <div class="triangle__right"></div>
+            <div class="date">
+                <div class="icon_clock">
+                    <div class="clock_arrow_1"></div>
+                    <div class="clock_arrow_2"></div>
+                </div>
+            <p>Today at 10:45AM</p>
+            </div>
+            <div class="chat__box_message">
+                    <div class="chat__box_message_incoming">
+                        <img src="./images/avatar_1.png" alt="avatar">
+                        <div class="message_background_incoming">
+                                <p class="message">Hi Andrea! How are you?</p>
+                                <p class="time">5 minutes ago</p>
+                                <div class="login" data-component="name"></div>
+                        </div>
+                    </div>
+        
+                    <div class="chat__box_message_outgoing">
+                        <div class="message_background_outgoing">
+                                <p class="message">Doing good, how do you feel about grabbing a coffee sometime?</p>
+                                <p class="time">5 minutes ago</p> 
+                                <div class="login" data-component="name"></div>   
+                        </div>
+                        <img src="./images/avatar_2.png" alt="avatar">
+                    </div>
+                    <div class="chat__box_message_typing">
+                        <img src="./images/avatar_3.png" alt="avatar">
+                        <div class="message_typing"> 
+                            <div class="round"></div><div class="round"></div><div class="round"></div>  
+                        </div>
+                    </div>
+                <div class="chat__box_message_input">
+                </div>
+
+         </div>
+
+        </div>
+        <div class="chat__box_bottom">
+            <div class="icon_photo">
+                <div class="icon_photo_1"></div>
+                <div class="icon_photo_2"></div>
+                <div class="icon_photo_3"></div>
+            </div>
+
+            <div class="icon_send">
+                <div class="icon_send_1"></div>
+                <div class="icon_send_2"></div>
+                <div class="icon_send_3"></div>
+            </div>
+            <p class="typing">Type message...</p>
+        </div>
+      
+
+    </div>
+</body>
+</html>

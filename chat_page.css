@@ -1,0 +1,371 @@
+
+.chat__box {
+    display: block;
+    position: relative;
+    width: 750px;
+    height: 1334px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.chat__box_header {
+    display: block;
+    width: 750px;
+    height: 128px;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 34px;
+    font-family: "KarlaRegular";
+    color: #fff;
+    text-align: center;
+}
+
+.chat__box_header p {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.triangle {
+    display: block;
+    position: absolute;
+    width: 0;
+    border: 10px solid transparent;
+    border-right: 10px solid #fff;
+    left: 35px;
+    top: 75px;
+    cursor: pointer;
+}
+
+.triangle:hover {
+    border-right-color: #ffbdb8;
+}
+
+.radio_1 {
+display: block;
+position: absolute;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #fff;
+top: 65px;
+right: 45px;
+}
+
+.radio_2 {
+display: block;
+position: absolute;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #fff;
+top: 85px;
+right: 45px;
+}
+
+.chat__box_top {
+    display: block;
+    background-color: #fff;
+    width: 750px;
+    height: 1100px;
+}
+
+.triangle__left {
+    display: block;
+    width: 0px;
+    border: 600px solid transparent;	
+    border-bottom: 600px solid #0090e5; 
+    border-left: 600px solid #0090e5;
+    float: left;
+}
+
+.triangle__right {
+    display: block;
+    width: 0px;
+    border: 374px solid transparent;	
+    border-top: 380px solid #00a0ff; 
+    border-right: 377px solid #00a0ff;
+}
+
+.date {
+    display: block;
+    position: absolute;
+    width: 290px;
+    height: 60px;
+    top: 184px;
+    left: 236px;
+    font-family: 'KarlaRegular';
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;  
+}
+
+.date p {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+}
+
+.icon_clock {
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #fff;
+    float: left;
+}
+
+.clock_arrow_1 {
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 11px;
+    background-color: #00a0ff;
+    top:  9px;
+    left: 14px;
+}
+
+.clock_arrow_2 {
+    display: block;
+    position: absolute;
+    width: 11px;
+    height: 4px;
+    background-color: #00a0ff;
+    top:  16px;
+    left: 14px;
+}
+
+.message_background_incoming {
+    display: inline-block;
+    position: absolute;
+    max-width: 480px;
+    min-width: 340px;
+    max-height: 200px;
+    padding: 50px 45px 40px 50px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.message_background_outgoing {
+    display: inline-block;
+    position: absolute;
+    max-width: 470px;
+    min-width: 330px;
+    max-height: 200px;
+    padding: 45px 50px 40px 50px;
+    background-color: #fff;
+    text-align: right;
+}
+
+.message {
+    display: inline-block;
+    font-size: 30px;
+    font-family: "KarlaRegular";
+    color: rgb(0, 0, 0);
+    text-align: left; 
+    word-wrap: break-word;
+}
+
+.chat__box_message_incoming img {
+    display: block;
+    position: relative;
+    margin: 0;
+    float: left;
+}
+
+.chat__box_message_incoming {
+    display: block;
+    position: absolute;
+    width: 508px;
+    height: 153px;
+    top: 274px;
+    left: 50px;
+}
+
+.chat__box_message_outgoing img {
+    display: block;
+    position: relative;
+    margin: 0px;
+    float: right;
+}
+
+.chat__box_message_outgoing {
+    display: block;
+    position: absolute;
+    width: 650px;
+    height: 220px;
+    top: 478px;
+    left: 50px;
+}
+
+.time {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-family: "KarlaRegular";
+    color: rgb(173, 128, 125);
+    margin-top: 30px;
+}
+
+.login {
+    display: inline-block;
+}
+.name {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-family: "KarlaRegular";
+    color: #f78f88;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+  
+.chat__box_message_typing {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 85px;
+    top: 740px;
+    left: 50px;
+}
+
+.chat__box_message_typing img {
+    display: block;
+    position: relative;
+    margin: 0px;
+    float: left;
+}
+
+.message_typing {
+    display: inline-block;
+    position: relative;
+    margin-top: 34px;
+    margin-left: 40px;
+}
+.message_typing .round {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    animation-name: blink;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    background-color: #ffbdb8;
+    float: left;
+  }
+  
+  .message_typing .round:nth-child(2) {
+    animation-delay: .2s;
+  }
+  
+  .message_typing .round:nth-child(3) {
+    animation-delay: .4s;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: .2;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      opacity: .2;
+    }
+  }
+
+  .chat__box_bottom {
+      display: block;
+      position: absolute;
+      width: 750px;
+      height: 110px;
+      background-color: rgba(0, 0, 0, 0.9);
+      font-family: 'KarlaRegular';
+      font-size: 30px;
+      color: #fff;
+  }
+
+  .icon_photo {
+      display: block;
+      width: 45px;
+      height: 40px;
+      margin-top: 35px;
+      margin-left: 45px;
+      float: left;
+  }
+
+  .icon_photo_1 {
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 13px;
+    width: 14px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.icon_photo_2 {
+    display: block;
+    width: 40px;
+    height: 30px;
+    background-color: #fff;
+}
+
+.icon_photo_3 {
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: 59px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.typing {
+    display: inline-block;
+    width: 230px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.icon_send {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    bottom: 50px;
+    right: 50px;
+}
+
+.icon_send_1 {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ffbdb8;
+}
+
+.icon_send_2 {
+    display: block;
+    position: absolute;
+    width: 0px;
+    border: 18px solid transparent;
+    border-left: 40px solid black;
+    top: 40px;
+    right: 20px;
+}
+
+.icon_send_3 {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: 55px;
+    left: 40px;
+    background-color: #ffbdb8;
+}

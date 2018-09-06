@@ -6,8 +6,9 @@
     <title>Web-chat</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link href='fonts.css' rel='stylesheet' type='text/css'>
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
 </head>
 <body>
     <div class="chat__box">
@@ -28,23 +29,23 @@
             <div class="chat__box_login_1">
                 <div class="chat__username">
                     <h3>username</h3>
-                    <input type="email" placeholder="email">
+                    <input class="login_button" type="email" placeholder="email" data-ischange="none">
+                    <div data-alert="true"></div>
                 </div>
 
                 <div class="chat__password">
                     <h3>password</h3>
-                    <input type="password" placeholder="password">
+                    <input class ="password_button" type="password" placeholder="password">
                 </div>
             </div>
             <div class="chat__box_login_2">
                 <div class="triangle__bottom"></div>
-                <input type="button" value="Get Started">
+                <a href="chat_page.html"><input class="submit_button" type="submit" value="Get Started"> </a>
             </div>
         </div>
         <div class="footer">
             <p>Not registered? <a href="">Create Account</a></p>
         </div>
-
     </div>
 </body>
 </html>
